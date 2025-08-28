@@ -3,6 +3,8 @@ import os
 from crewai import Crew, Process
 from tasks import analyze_financial_document, investment_analysis, risk_assessment, verification
 from agents import financial_analyst, verifier
+from dotenv import load_dotenv
+load_dotenv()
 
 def main():
     """
